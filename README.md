@@ -5,7 +5,7 @@ Higher order React autocomplete component
 ------
 
 ```
-npm install react-autocomplete
+npm install react-otocomplete
 ```
 
 Basic Usage
