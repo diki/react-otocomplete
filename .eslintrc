@@ -1,0 +1,30 @@
+{
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "strict": 0,
+    "no-underscore-dangle": 0,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "comma-dangle": 0,
+    "prefer-const": 0,
+    "space-after-keywords": 0,
+    "one-var": 0,
+    "object-curly-spacing": [2, "always"],
+    "indent": [2, 2, { SwitchCase: 1 }],
+    "func-names": 0,
+    "camelcase": [2, {"properties": "never"}]
+  },
+  "plugins": ["react"]
+}

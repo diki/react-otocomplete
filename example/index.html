@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.0.3/milligram.css">
+
+  <style>
+    .gist {
+      width: 60%;
+      margin: auto;
+      display: none;
+    }
+
+    .react-otocomplete-list {
+      border-bottom: 1px solid #e5e5e5;
+      border-left: 1px solid #e5e5e5;
+      border-right: 1px solid #e5e5e5;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+
+  <div>
+    <div style="text-align: center; padding-top: 42px;">
+      <h1>react-otocomplete</h1>
+      <h2>higher order React autocomplete component</h2>
+    </div>
+    <div id="app"></div>
+
+    <div style="text-align: center; padding-top: 21px;">
+      <button id="simple" onClick=showSimple()>Basic Example</button>
+      <button id="advanced" onClick=showAdvanced()>Advanced</button>
+    </div>
+    <script src="https://gist.github.com/diki/597970af8577153b3ae5.js"></script>
+    <script src="https://gist.github.com/diki/b7e9ccbace790bed7d2a.js"></script>
+  </div>
+
+  <script src="https://fb.me/react-0.14.6.js"></script>
+  <script src="https://fb.me/react-dom-0.14.6.js"></script>
+  <script type="text/javascript" src="/assets/example.js"></script>
+
+  <script type="text/javascript">
+    function showSimple() {
+      document.querySelectorAll('.gist')[0].style.display = 'block';
+      document.querySelectorAll('.gist')[1].style.display = 'none';
+    }
+    function showAdvanced() {
+      document.querySelectorAll('.gist')[1].style.display = 'block';
+      document.querySelectorAll('.gist')[0].style.display = 'none';
+    }
+  </script>
+</body>
+</html>
