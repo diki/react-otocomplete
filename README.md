@@ -4,6 +4,10 @@ Higher order React autocomplete component
 [DEMO](http://github.diki.io/)
 ------
 
+```
+npm install react-autocomplete
+```
+
 Basic Usage
 ----
 ```
