@@ -1,6 +1,6 @@
 {
   "name": "react-otocomplete",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "higher order react autocomplete component",
   "main": "dist/bundle.js",
   "directories": {

@@ -1,7 +1,7 @@
 Higher order React autocomplete component
 ======
 
-[DEMO](http://github.diki.io/)
+[DEMO](http://diki.github.io/)
 ------
 
 ```
