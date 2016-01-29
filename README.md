@@ -12,7 +12,7 @@ Basic Usage
 ----
 ```
 import React from 'react';
-import AutoComplete from '../src/AutoComplete';
+import AutoComplete from 'react-otocomplete';
 import ReactDOM from 'react-dom';
 
 let Index = React.createClass({
@@ -94,7 +94,7 @@ Advanced Usage
 ---
 ```
 import React from 'react';
-import AutoComplete from '../src/AutoComplete';
+import AutoComplete from 'react-otocomplete';
 import ReactDOM from 'react-dom';
 
 let Index = React.createClass({
